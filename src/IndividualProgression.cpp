@@ -353,8 +353,8 @@ public:
         {
             sWorld->setIntConfig(CONFIG_WATER_BREATH_TIMER, 60000); //水下呼吸：1分钟
             //sWorld->setIntConfig(CONFIG_LFG_OPTIONSMASK, 4); //地下城查找器：禁用
-            sWorld->setBoolConfig(CONFIG_OBJECT_QUEST_MARKERS, false);
-            sWorld->setBoolConfig(CONFIG_OBJECT_SPARKLES, false);
+            //sWorld->setBoolConfig(CONFIG_OBJECT_QUEST_MARKERS, false);
+            //sWorld->setBoolConfig(CONFIG_OBJECT_SPARKLES, false);
             sWorld->setBoolConfig(CONFIG_PLAYER_SETTINGS_ENABLED, true);
             sWorld->setBoolConfig(CONFIG_LOW_LEVEL_REGEN_BOOST, false);
             sWorld->setBoolConfig(CONFIG_DBC_ENFORCE_ITEM_ATTRIBUTES, false);
