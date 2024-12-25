@@ -370,7 +370,7 @@ public:
     // Check if RDF is disabled in the context of Individual Progression
     if (sConfigMgr->GetOption<bool>("IndividualProgression.DisableRDF", false))
     {
-        ChatHandler(player->GetSession()).SendNotification("The Random Dungeon feature is currently disabled by the Individual Progression module.");
+        ChatHandler(player->GetSession()).SendNotification("随机副本功能目前被个人渐进模块禁用。");
         rDungeonId = 1000; // Set dungeon ID to an invalid value to cancel the queuing
         return;
     }
